@@ -10,11 +10,34 @@ java {
     withSourcesJar()
 }
 jar {
+    archiveBaseName.set("breaktheapi")
+    archiveVersion.set("")
+    archiveClassifier.set("")
     from sourceSets.main.output
     manifest {
         attributes([
                 'Implementation-Title'  : project.name,
                 'Implementation-Version': project.version
         ])
+    }
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'net.charisk'
+            artifactId = 'common'
+            version = '1.0.0'  // or use project.version
+        }
+    }
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/charisk/breaktheapi")
+            credentials {
+                username = System.getenv("USERNAME")
+                password = System.getenv("TOKEN")
+            }
+        }
     }
 }
