@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "breaktheapi",
+  "version": "${version}",
+  "name": "BreakTheAPI",
+  "description": "",
+  "authors": [
+    "charisk"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/breaktheapi/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.charisk.breaktheapi.fabric.BreaktheapiFabric"
+    ],
+    "client": [
+      "net.charisk.breaktheapi.fabric.client.BreaktheapiFabricClient"
+    ]
+  },
+  "mixins": [
+    "breaktheapi.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "architectury": ">=15.0.3",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "GNU GPL 3.0"
+
+[[mods]]
+modId = "breaktheapi"
+version = "${version}"
+displayName = "BreakTheAPI"
+authors = "charisk"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.breaktheapi]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.breaktheapi]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.breaktheapi]]
+modId = "architectury"
+type = "required"
+versionRange = "[15.0.3,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "breaktheapi.mixins.json"
