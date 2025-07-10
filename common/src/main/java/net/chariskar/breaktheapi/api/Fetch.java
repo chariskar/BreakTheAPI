@@ -15,14 +15,14 @@
  * along with breaktheapi. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.charisk.breaktheapi.api;
+package net.chariskar.breaktheapi.api;
 
 import com.google.gson.*;
-import net.charisk.breaktheapi.types.Nation;
-import net.charisk.breaktheapi.types.Resident;
-import net.charisk.breaktheapi.types.Town;
-import net.charisk.breaktheapi.types.reference;
-import net.charisk.breaktheapi.utils.config;
+import net.chariskar.breaktheapi.types.Nation;
+import net.chariskar.breaktheapi.types.Resident;
+import net.chariskar.breaktheapi.types.Town;
+import net.chariskar.breaktheapi.types.reference;
+import net.chariskar.breaktheapi.utils.config;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -37,7 +37,7 @@ import java.util.List;
 
 /**
  *
- * This is the high level fetch class, if you want the fetch types, you need to go to {@link net.charisk.breaktheapi.types}
+ * This is the high level fetch class, if you want the fetch types, you need to go to {@link net.chariskar.breaktheapi.types}
  */
 public class Fetch {
     private static final Logger LOGGER = LoggerFactory.getLogger("breaktheapi");

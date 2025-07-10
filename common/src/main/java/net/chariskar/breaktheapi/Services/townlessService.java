@@ -15,11 +15,11 @@
  * along with breaktheapi. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.charisk.breaktheapi.Services;
+package net.chariskar.breaktheapi.Services;
 
 
-import net.charisk.breaktheapi.api.Fetch;
-import net.charisk.breaktheapi.types.Resident;
+import net.chariskar.breaktheapi.api.Fetch;
+import net.chariskar.breaktheapi.types.Resident;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

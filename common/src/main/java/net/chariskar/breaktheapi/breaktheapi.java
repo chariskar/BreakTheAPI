@@ -1,13 +1,13 @@
-package net.charisk.breaktheapi;
+package net.chariskar.breaktheapi;
 
-import net.charisk.breaktheapi.Services.*;
-import net.charisk.breaktheapi.api.Fetch;
-import net.charisk.breaktheapi.engine.nearby;
-import net.charisk.breaktheapi.types.Nation;
-import net.charisk.breaktheapi.types.Resident;
-import net.charisk.breaktheapi.types.Town;
-import net.charisk.breaktheapi.types.reference;
-import net.charisk.breaktheapi.utils.config;
+import net.chariskar.breaktheapi.Services.*;
+import net.chariskar.breaktheapi.api.Fetch;
+import net.chariskar.breaktheapi.engine.nearby;
+import net.chariskar.breaktheapi.types.Nation;
+import net.chariskar.breaktheapi.types.Resident;
+import net.chariskar.breaktheapi.types.Town;
+import net.chariskar.breaktheapi.types.reference;
+import net.chariskar.breaktheapi.utils.config;
 
 
 public final class breaktheapi {

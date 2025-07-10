@@ -15,7 +15,7 @@
  * along with breaktheapi. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.charisk.breaktheapi.utils;
+package net.chariskar.breaktheapi.utils;
 
 
 import com.google.gson.Gson;

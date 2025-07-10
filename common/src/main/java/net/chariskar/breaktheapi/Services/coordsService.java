@@ -15,11 +15,11 @@
  * along with breaktheapi. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.charisk.breaktheapi.Services;
+package net.chariskar.breaktheapi.Services;
 
 import com.google.gson.*;
-import net.charisk.breaktheapi.api.Fetch;
-import net.charisk.breaktheapi.utils.config;
+import net.chariskar.breaktheapi.api.Fetch;
+import net.chariskar.breaktheapi.utils.config;
 
 import java.util.Optional;
 

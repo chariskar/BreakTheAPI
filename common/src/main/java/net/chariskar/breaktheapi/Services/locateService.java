@@ -15,14 +15,14 @@
  * along with breaktheapi. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.charisk.breaktheapi.Services;
+package net.chariskar.breaktheapi.Services;
 
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import net.charisk.breaktheapi.api.Fetch;
-import net.charisk.breaktheapi.utils.config;
+import net.chariskar.breaktheapi.api.Fetch;
+import net.chariskar.breaktheapi.utils.config;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,4 +1,4 @@
-package net.charisk.breaktheapi.neoforge;
+package net.chariskar.breaktheapi.neoforge;
 
 public final class BreaktheapiNeoForge {
     public BreaktheapiNeoForge() {

@@ -15,27 +15,26 @@
  * along with breaktheapi. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.charisk.breaktheapi.utils;
+package net.chariskar.breaktheapi.types;
 
-import java.time.Duration;
-import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
 
-public class timestamps {
+import java.util.Optional;
+import java.util.UUID;
 
-    public static List<Long> parseTimestamp(long timestamp) {
-        long current = Instant.now().toEpochMilli();
-        long diff = current - timestamp;
-        Duration duration = Duration.ofMillis(diff);
-        long days = duration.toDays();
-        long hours = duration.toHours() % 24;
-        long minutes = duration.toMinutes() % 60;
-        List<Long> list = new ArrayList<>();
-        list.add(days);
-        list.add(hours);
-        list.add(minutes);
-        return list;
+public class reference {
+    public String name;
+    public UUID uuid;
+
+    public reference(String name, UUID uuid) {
+        this.name = name;
+        this.uuid = uuid;
     }
 
+    public Optional<String> getName() {
+        return Optional.ofNullable(name);
+    }
+
+    public Optional<UUID> getUuid() {
+        return Optional.ofNullable(uuid);
+    }
 }

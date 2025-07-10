@@ -15,7 +15,7 @@
  * along with breaktheapi. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.charisk.breaktheapi.engine;
+package net.chariskar.breaktheapi.engine;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;

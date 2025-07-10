@@ -1,4 +1,4 @@
-package net.charisk.breaktheapi.fabric;
+package net.chariskar.breaktheapi.fabric;
 
 import net.fabricmc.api.ModInitializer;
 

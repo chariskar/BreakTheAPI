@@ -25,15 +25,15 @@ jar {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            groupId = 'net.charisk'
-            artifactId = 'common'
-            version = '1.0.0'  // or use project.version
+            groupId = 'net.chariskar'
+            artifactId = 'breaktheapi'
+            version = '1.0.0'
         }
     }
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/charisk/breaktheapi")
+            url = uri("https://maven.pkg.github.com/chariskar/breaktheapi")
             credentials {
                 username = System.getenv("USERNAME")
                 password = System.getenv("TOKEN")

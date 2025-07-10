@@ -15,7 +15,7 @@
  * along with breaktheapi. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.charisk.breaktheapi.types;
+package net.chariskar.breaktheapi.types;
 
 import java.util.List;
 import java.util.Optional;
