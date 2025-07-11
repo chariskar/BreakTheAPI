@@ -1,4 +1,4 @@
-package net.chariskar.breaktheapi.neoforge;
+package io.github.chariskar.breaktheapi.neoforge;
 
 public final class BreaktheapiNeoForge {
     public BreaktheapiNeoForge() {
