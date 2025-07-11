@@ -25,7 +25,7 @@ jar {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            groupId = 'net.chariskar'
+            groupId = 'io.github.chariskar'
             artifactId = 'breaktheapi'
             version = '1.0.0'
         }
